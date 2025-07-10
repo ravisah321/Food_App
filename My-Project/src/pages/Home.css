@@ -1,0 +1,122 @@
+.home-container {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff8f0;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .home-header {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    background: #ffb347;
+    color: #fff;
+    border-radius: 0 0 30px 30px;
+  }
+  
+  .home-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .home-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 1rem 0;
+    margin: 0;
+    background: #fff3e0;
+    border-radius: 20px;
+  }
+  
+  .home-nav a {
+    text-decoration: none;
+    color: #ff9800;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+  }
+  
+  .home-nav a:hover {
+    color: #e65100;
+  }
+  
+  .home-hero {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 500px;
+    background: #fff;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 24px rgba(255, 152, 0, 0.08);
+  }
+  
+  .home-hero img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 2rem;
+    background: #ff9800;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background 0.2s;
+  }
+  
+  .hero-btn:hover {
+    background: #e65100;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 900px) {
+    .home-hero {
+      max-width: 90%;
+      padding: 1.5rem 0.5rem;
+    }
+    .home-header h1 {
+      font-size: 2rem;
+    }
+    .home-nav ul {
+      gap: 1rem;
+      font-size: 1rem;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .home-header {
+      padding: 1.2rem 0.5rem 0.7rem 0.5rem;
+      border-radius: 0 0 18px 18px;
+    }
+    .home-header h1 {
+      font-size: 1.4rem;
+    }
+    .home-nav ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 0;
+      border-radius: 12px;
+    }
+    .home-hero {
+      margin: 1rem auto;
+      padding: 1rem 0.3rem;
+      border-radius: 12px;
+    }
+    .hero-btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      border-radius: 18px;
+    }
+  }
