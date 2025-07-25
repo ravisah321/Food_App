@@ -58,7 +58,7 @@ Before running this application, make sure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/ravisah321/Food_App.git
 cd Food_App
 ```
 
@@ -215,8 +215,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+**Ravi Singh**
+- GitHub: [@yourusername](https://github.com/ravisah321)
 
 ## 🙏 Acknowledgments
 
@@ -226,4 +226,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Note**: Make sure to replace placeholder values like `<your-repository-url>`, `your_mongodb_connection_string`, `your_jwt_secret_key`, and author information with your actual details. 
